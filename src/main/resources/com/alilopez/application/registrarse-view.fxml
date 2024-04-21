@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.AmbientLight?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane accessibleRole="IMAGE_VIEW" prefHeight="700.0" prefWidth="1280.0" style="-fx-background-color: #F8E0F7;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.alilopez.application.controllers.RegistrarseController">
+   <children>
+      <Button fx:id="closeButton" alignment="CENTER" contentDisplay="CENTER" layoutX="859.0" layoutY="594.0" mnemonicParsing="false" onMouseClicked="#onClickCloseButton" prefHeight="34.0" prefWidth="118.0" style="-fx-background-color: #F781F3;" text="Atras">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font></Button>
+      <Label layoutX="400.0" layoutY="129.0" text="Nombre:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nombreCasilla" layoutX="395.0" layoutY="161.0" onAction="#onGuardarNombre" prefHeight="30.0" prefWidth="250.0" promptText="Ingrese su nombre completo">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></TextField>
+      <BorderPane prefHeight="50.0" prefWidth="1281.0" style="-fx-background-color: #F781F3;" />
+      <BorderPane layoutX="-9.0" layoutY="649.0" prefHeight="60.0" prefWidth="1280.0" style="-fx-background-color: #F781F3;" />
+      <BorderPane layoutY="1.0" prefHeight="708.0" prefWidth="60.0" style="-fx-background-color: #F781F3;" />
+      <BorderPane layoutX="1211.0" layoutY="38.0" prefHeight="671.0" prefWidth="70.0" style="-fx-background-color: #F781F3;" />
+      <Label layoutX="402.0" layoutY="204.0" text="Matricula:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="matriculaCasilla" layoutX="395.0" layoutY="240.0" onAction="#onGuardarMatricula" prefHeight="30.0" prefWidth="250.0" promptText="Ingrese su matricula (6 digitos)">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></TextField>
+      <Label layoutX="402.0" layoutY="278.0" text="Correo:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="correoCasilla" layoutX="395.0" layoutY="316.0" onAction="#onGuardarCorreo" prefHeight="30.0" prefWidth="250.0" promptText="Ingrese su correo institucional">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></TextField>
+      <Label layoutX="403.0" layoutY="350.0" text="Cuatrimestre:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="403.0" layoutY="436.0" text="Contraseña:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="402.0" layoutY="517.0" text="Confirmar Contraseña:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="contra1Casilla" layoutX="395.0" layoutY="473.0" onAction="#onGuardarContra1" prefHeight="30.0" prefWidth="250.0" promptText="Cree una contraseña">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></PasswordField>
+      <PasswordField fx:id="contra2Casilla" layoutX="395.0" layoutY="560.0" onAction="#onGuardarContra2" prefHeight="30.0" prefWidth="250.0" promptText="Confirme su contraseña">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></PasswordField>
+      <Line endX="92.99998474121094" endY="653.0" layoutX="-33.0" layoutY="-4.0" startX="92.99998474121094" startY="54.399993896484375" stroke="#d405b9" strokeWidth="3.0" />
+      <Line endX="92.99998474121094" endY="653.0" layoutX="1118.0" layoutY="-4.0" startX="92.99998474121094" startY="54.399993896484375" stroke="#d405b9" strokeWidth="3.0" />
+      <Line endX="288.4000244140625" endY="677.5999755859375" layoutX="921.0" layoutY="-28.0" startX="-860.0" startY="677.9999389648438" stroke="#d405b9" strokeWidth="3.0" />
+      <Line endX="279.4000244140625" endY="676.5574340820312" layoutX="930.0" layoutY="-627.0" startX="-871.3846435546875" startY="676.5574340820312" stroke="#d405b9" strokeWidth="3.0" />
+      <Button fx:id="AltaBttn" layoutX="733.0" layoutY="595.0" mnemonicParsing="false" onMouseClicked="#onClickedDarsedeAlta" prefHeight="34.0" prefWidth="118.0" style="-fx-background-color: #F781F3;" text="Darse de Alta">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Button>
+      <ComboBox fx:id="cuatriCasilla" layoutX="395.0" layoutY="391.0" onAction="#onGuardarCuatri" prefHeight="30.0" prefWidth="250.0" promptText="Cuatrimestre" />
+      <Label alignment="TOP_CENTER" layoutX="397.0" layoutY="73.0" prefHeight="47.0" prefWidth="221.0" style="-fx-background-color: #F781F3;" text="Registrarse">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="clickRecordarme" layoutX="615.0" layoutY="599.0" mnemonicParsing="false" onMouseClicked="#onClickRecordarme" prefHeight="30.0" prefWidth="102.0" style="-fx-background-color: #CEF6CE;" text="Recordarme">
+         <font>
+            <Font name="Constantia Bold Italic" size="12.0" />
+         </font>
+      </CheckBox>
+      <ImageView fitHeight="393.0" fitWidth="418.0" layoutX="709.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="https://th.bing.com/th/id/R.45f48f33d0918f347ebe874931215f4a?rik=E5oPEuTc1B6%2b7A&amp;riu=http%3a%2f%2f3.bp.blogspot.com%2f-6XpCCjTmRu0%2fUmXUTg34KlI%2fAAAAAAAADkE%2flnQ47XMgcz0%2fs1600%2fGif_animado_para_orkut9xgoi8t1.gif&amp;ehk=LA8VjZrWwB1O77o8pZtaMW2srUDQmFA2U8jFW8BZYbY%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="692.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imagenBtn" fitHeight="495.0" fitWidth="455.0" layoutX="671.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true" />
+      <AmbientLight layoutX="117.0" layoutY="96.0" lightOn="true">
+         <color>
+            <Color red="0.10615984350442886" green="0.1473684161901474" blue="0.06495126336812973" />
+         </color>
+      </AmbientLight>
+      <Text layoutX="340.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♕">
+         <font>
+            <Font name="Viner Hand ITC" size="45.0" />
+         </font>
+      </Text>
+
+   </children>
+</AnchorPane>

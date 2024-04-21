@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.alilopez.application.controllers.ImagesController">
+   <children>
+      <!-- Panel rosa decorativo -->
+      <Pane layoutX="0" layoutY="0" prefHeight="59.0" prefWidth="1280" style="-fx-background-color: #ffcccc; -fx-border-color: #ff99cc; -fx-border-width: 5;" />
+      <Pane layoutX="0" layoutY="653.0" prefHeight="52.0" prefWidth="1280" style="-fx-background-color: #ffcccc; -fx-border-color: #ff99cc; -fx-border-width: 4px;" />
+      <Pane layoutX="0" prefHeight="700.0" prefWidth="68.0" style="-fx-background-color: #ffcccc; -fx-border-color: #ff99cc; -fx-border-width: 4px;" />
+      <Pane layoutX="1223.0" layoutY="0" prefHeight="705.0" prefWidth="62.0" style="-fx-background-color: #ffcccc; -fx-border-color: #ff99cc; -fx-border-width: 4px;" />
+
+      <!-- Contenido original -->
+      <ImageView fx:id="img" fitHeight="125.0" fitWidth="180.0" layoutX="358.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="btnImagen" layoutX="563.0" layoutY="556.0" mnemonicParsing="false" onMouseClicked="#onClickedBtn" prefHeight="35.0" prefWidth="200.0" text="Mostrar Imagen" />
+      <ImageView fx:id="imgView01" fitHeight="230.0" fitWidth="231.0" layoutX="115.0" layoutY="148.0" onMouseClicked="#onMouseClickedImage" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="3" fx:id="imgView02" fitHeight="233.0" fitWidth="243.0" layoutX="407.0" layoutY="110.0" onMouseClicked="#onMouseClickedImage" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="1" fx:id="imgView03" fitHeight="229.0" fitWidth="225.0" layoutX="929.0" layoutY="128.0" onMouseClicked="#onMouseClickedImage" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="130.0" fitWidth="362.0" layoutX="988.0" layoutY="568.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="https://pa1.narvii.com/7656/f9aa99cab38acce75fe4871559e534c95a1043e0r1-640-160_hq.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="130.0" fitWidth="362.0" layoutX="-73.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="https://pa1.narvii.com/7656/f9aa99cab38acce75fe4871559e534c95a1043e0r1-640-160_hq.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="130.0" fitWidth="362.0" layoutX="991.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="https://pa1.narvii.com/7656/f9aa99cab38acce75fe4871559e534c95a1043e0r1-640-160_hq.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="130.0" fitWidth="362.0" layoutX="-71.0" layoutY="568.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="https://pa1.narvii.com/7656/f9aa99cab38acce75fe4871559e534c95a1043e0r1-640-160_hq.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

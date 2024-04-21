@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.alilopez.application.controllers.VerReporteController">
+    <children>
+        <ImageView fitHeight="209.0" fitWidth="188.0" layoutX="13.0" layoutY="50.0">
+            <image>
+                <Image url="https://cdn2.ondavasca.com/4446b3d2-fe7b-4993-b9dc-d99269d48941_16-9-discover_1200x675.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="209.0" fitWidth="202.0" layoutX="250.0" layoutY="50.0">
+            <image>
+                <Image url="https://th.bing.com/th/id/OIP.IoJvBvK08G3n4V4RdGGo5QHaHa?w=220&amp;h=220&amp;c=7&amp;r=0&amp;o=5&amp;dpr=1.3&amp;pid=1.7" />
+            </image>
+        </ImageView>
+        <Button layoutX="50.0" layoutY="270.0" mnemonicParsing="false" onMouseClicked="#onClickedLlave" text="Click" />
+        <Button layoutX="327.0" layoutY="270.0" mnemonicParsing="false" onAction="#accion2Handler" onMouseClicked="#onClickedAnilla" text="Click" />
+
+        <ImageView fitHeight="202.0" fitWidth="169.0" layoutX="50.0" layoutY="350.0">
+            <image>
+                <Image url="https://th.bing.com/th/id/OIP.TOUMxsmUBxTLhw1qK3SdiAHaHa?w=187&amp;h=188&amp;c=7&amp;r=0&amp;o=5&amp;dpr=1.3&amp;pid=1.7" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="202.0" fitWidth="231.0" layoutX="299.0" layoutY="356.0">
+            <image>
+                <Image url="https://th.bing.com/th/id/R.8d3b7ba4afbc341840052cdedc2138c6?rik=5ajxsvZtePUHPg&amp;pid=ImgRaw&amp;r=0" />
+            </image>
+        </ImageView>
+        <Button layoutX="588.0" layoutY="270.0" mnemonicParsing="false" onAction="#accion3Handler" onMouseClicked="#onClickedBilletera" text="Click" />
+        <Button layoutX="77.0" layoutY="570.0" mnemonicParsing="false" onAction="#accion4Handler" onMouseClicked="#onClickedCelular" text="Click" />
+      <ImageView fitHeight="209.0" fitWidth="202.0" layoutX="557.0" layoutY="50.0">
+         <image>
+            <Image url="https://th.bing.com/th/id/OIP.9cGU2B6WM64E6kw1JgLuxQHaEK?w=305&amp;h=180&amp;c=7&amp;r=0&amp;o=5&amp;dpr=1.3&amp;pid=1.7" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="202.0" fitWidth="231.0" layoutX="557.0" layoutY="356.0">
+         <image>
+            <Image url="https://th.bing.com/th/id/OIP.w5bxm42W3u3V5to78U4EAgHaHa?rs=1&amp;pid=ImgDetMain" />
+         </image>
+      </ImageView>
+      <Button layoutX="385.0" layoutY="570.0" mnemonicParsing="false" onAction="#accion4Handler" text="Click" />
+      <Button layoutX="642.0" layoutY="570.0" mnemonicParsing="false" onAction="#accion4Handler" text="Click" />
+      <ImageView fitHeight="209.0" fitWidth="202.0" layoutX="902.0" layoutY="32.0">
+         <image>
+            <Image url="https://th.bing.com/th/id/R.debf2af1ed88e46dd8d4f6d398e106fc?rik=N12CituzbPCFhw&amp;pid=ImgRaw&amp;r=0" />
+         </image>
+      </ImageView>
+      <Button layoutX="973.0" layoutY="270.0" mnemonicParsing="false" onAction="#actionreloj" onMouseClicked="#onClickedReloj" text="Click" />
+      <ImageView fitHeight="202.0" fitWidth="231.0" layoutX="873.0" layoutY="368.0">
+         <image>
+            <Image url="https://th.bing.com/th/id/R.8ef73da6ab9044e08155e6679bd6db68?rik=EHq0McOqQUGAWQ&amp;pid=ImgRaw&amp;r=0" />
+         </image>
+      </ImageView>
+      <Button layoutX="958.0" layoutY="570.0" mnemonicParsing="false" onAction="#accion4Handler" text="Click" />
+      <ImageView fitHeight="130.0" fitWidth="362.0" layoutX="-151.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="https://pa1.narvii.com/7656/f9aa99cab38acce75fe4871559e534c95a1043e0r1-640-160_hq.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="130.0" fitWidth="362.0" layoutX="-143.0" layoutY="684.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="https://pa1.narvii.com/7656/f9aa99cab38acce75fe4871559e534c95a1043e0r1-640-160_hq.gif" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
